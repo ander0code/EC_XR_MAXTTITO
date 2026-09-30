@@ -1,4 +1,4 @@
-# XR Interaction Challenge
+# Taller de mantenimiento XR
 
 **Estudiante:** Ttito, Max
 **Código:** PENDIENTE
@@ -7,20 +7,22 @@
 
 ## Descripción
 
-Sala de entrenamiento XR hecha en Unity 6.6 con URP y XR Interaction Toolkit. Es un cuarto de 12 x 12 m cerrado por cuatro
-muros, con una mesa de objetos para agarrar y lanzar, un botón que prende y apaga una lámpara, un orbe que cambia de color
-con el rayo y una canasta que cuenta cuántos objetos caen dentro.
+Proyecto del XR Interaction Challenge hecho en Unity 6.6 con URP y XR Interaction Toolkit. La escena es un taller de
+12 x 12 m cerrado por cuatro muros. Sobre una mesa de metal hay herramientas que se pueden agarrar y lanzar, una lámpara
+de trabajo que se prende con un botón, un cuadro en la pared que cambia de color con el rayo y una caja roja donde hay que
+guardar las herramientas.
 
 La escena es `Assets/Scenes/EC_XR_TtitoMax.unity`.
 
 ## Funcionalidades
 
-- **Objetos manipulables:** cubo, esfera, herramienta y llave. Cada uno tiene `Rigidbody` y `XR Grab Interactable`, se
-  pueden lanzar al soltarlos y si se caen fuera de la sala vuelven a la mesa.
-- **Interacción a distancia:** el botón amarillo del pedestal enciende y apaga la lámpara, y el orbe morado cambia de
-  color. Los dos usan `XR Simple Interactable` y se activan apuntando con el rayo.
-- **Reto libre:** la canasta azul lleva la cuenta de los objetos que tiene dentro y el récord. Además el piso sirve para
-  teletransportarse, hay una plataforma de teleport en una esquina y el botón rojo devuelve todo a la mesa.
+- **Objetos manipulables:** martillo, llave inglesa, destornillador y linterna, armados con primitivas. Cada uno tiene
+  `Rigidbody` y `XR Grab Interactable`, se lanza al soltarlo y vuelve a la mesa si cae fuera de la sala.
+- **Interacción a distancia:** el botón amarillo del pedestal prende y apaga la lámpara de trabajo, y el cuadro de la
+  pared cambia de color. Los dos usan `XR Simple Interactable` y se activan apuntando con el rayo.
+- **Reto libre:** la caja de herramientas cuenta cuántas herramientas tiene guardadas y muestra "¡Taller ordenado!" cuando
+  están las cuatro. Además el piso sirve para teletransportarse, hay una plataforma de teleport en una esquina y el botón
+  rojo devuelve todo a la mesa.
 
 ## Controles
 
@@ -45,7 +47,7 @@ Las dos manos funcionan igual: cualquiera puede agarrar, pulsar botones y teletr
 
 ## Capturas
 
-Vista general del escenario:
+Vista general del taller:
 
 ![Vista general](Docs/capturas/01-vista-general.png)
 
@@ -53,13 +55,17 @@ Componentes en el Inspector:
 
 ![Inspector](Docs/capturas/02-inspector.png)
 
-Interacción en Play: esfera agarrada, lámpara apagada con el botón y orbe cambiado de color:
+Interacción en Play: martillo en la mano derecha, cuadro cambiado de color y dos herramientas ya guardadas en la caja:
 
 ![Interacción](Docs/capturas/03-interaccion.png)
 
-Mesa con los objetos:
+Mesa de metal con las herramientas y la lámpara de trabajo:
 
 ![Mesa](Docs/capturas/04-mesa.png)
+
+Cuadro que cambia de color:
+
+![Cuadro](Docs/capturas/05-cuadro.png)
 
 ## Video
 
