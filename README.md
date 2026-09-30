@@ -51,7 +51,7 @@ Vista general del taller:
 
 ![Vista general](Docs/capturas/01-vista-general.png)
 
-Componentes en el Inspector:
+Componentes del martillo en el Inspector (`Rigidbody` y `XR Grab Interactable`):
 
 ![Inspector](Docs/capturas/02-inspector.png)
 
