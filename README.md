@@ -1,9 +1,9 @@
 # Taller de mantenimiento XR
 
-**Estudiante:** Ttito, Max
-**Código:** PENDIENTE
-**Curso:** Laboratorio de Realidad Extendida (XR) para Videojuegos
-**Docente:** Victor Alejandro Arroyo Castro
+- **Apellidos y nombres:** Ttito, Max
+- **Código:** 2221897926
+- **Curso:** Laboratorio de Realidad Extendida (XR) para Videojuegos
+- **Docente:** Victor Alejandro Arroyo Castro
 
 ## Descripción
 
@@ -69,7 +69,7 @@ Cuadro que cambia de color:
 
 ## Video
 
-PENDIENTE
+[Ver el video demostrativo (58 segundos)](Docs/video/demostracion.mp4)
 
 ## Tecnologías
 
