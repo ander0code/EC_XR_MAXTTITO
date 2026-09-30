@@ -34,12 +34,14 @@ Sin visor, en el editor aparece el XR Interaction Simulator:
 | W A S D | Moverse |
 | Q / E | Bajar / subir |
 | Clic derecho + mouse | Mirar alrededor |
-| `]` / `[` | Controlar la mano derecha / izquierda |
-| Tab | Cambiar entre cabeza y manos |
-| G | Grip: agarrar o pulsar |
-| T | Gatillo |
+| Tab | Alternar entre mover la cabeza y mover las manos |
+| `[` / `]` | Elegir qué mano se mueve con el mouse (izquierda, derecha o las dos) |
+| G / T | Grip y gatillo de la mano derecha |
+| Shift + G / T | Grip y gatillo de la mano izquierda |
 | I | Palanca hacia adelante (teleport) |
 | R | Reiniciar la posición del simulador |
+
+Las dos manos funcionan igual: cualquiera puede agarrar, pulsar botones y teletransportarse.
 
 ## Capturas
 
